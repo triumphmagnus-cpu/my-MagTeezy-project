@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="MagTeezy portfolio page featuring a modern project gallery, hover effects, and professional project showcases." />
+  <title>Portfolio | MagTeezy</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Poppins:wght@700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="../CSS/styles.css" />
+</head>
+<body>
+  <div class="preloader" id="preloader">
+    <div class="loader"><span class="dot"></span><span class="dot"></span><span class="dot"></span><span>Loading MagTeezy...</span></div>
+  </div>
+  <div class="page-shell">
+    <header class="site-header">
+      <a class="brand-logo" href="index.html">
+        <img src="../MagTeezy  IMAGE/magteezy-logo.png" alt="MagTeezy Logo" class="site-logo" />
+      </a>
+      <button class="nav-toggle" id="navToggle" aria-label="Open navigation menu">☰</button>
+      <nav class="site-nav" aria-label="Primary navigation">
+        <a href="about.html" target="_blank" rel="noopener noreferrer">About Us</a>
+        <a href="services.html" target="_blank" rel="noopener noreferrer">Services</a>
+        <a href="portfolio.html" target="_blank" rel="noopener noreferrer">Our Work / Portfolio</a>
+        <a href="testimonials.html" target="_blank" rel="noopener noreferrer">Testimonials</a>
+        <a href="contact.html" target="_blank" rel="noopener noreferrer">Contact Us</a>
+      </nav>
+      <div class="header-actions">
+        <button id="themeToggle" class="theme-toggle" aria-label="Toggle dark and light theme">Light</button>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero-section">
+        <div class="hero-copy">
+          <span class="eyebrow">Our Creative Works</span>
+          <h1>Projects that showcase the excellence of MagTeezy.</h1>
+          <p>A modern portfolio gallery highlighting branding, web design, motion content, and immersive visual systems.</p>
+          <div class="hero-actions">
+            <a class="button primary" href="contact.html">Start Your Project</a>
+            <a class="button outline" href="index.html">Back to Home</a>
+          </div>
+        </div>
+        <div class="hero-visual">
+          <div class="visual-layer layer-1"></div>
+          <div class="visual-layer layer-2"></div>
+          <div class="visual-layer layer-3"></div>
+          <div class="visual-panel">
+            <div class="visual-statement">
+              <h3>Curated creative projects designed for luxury brands and ambitious startups.</h3>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section portfolio-section">
+        <div class="section-title">
+          <span class="section-label">Portfolio</span>
+          <h2>Showcase of creative projects crafted to capture attention and build trust.</h2>
+        </div>
+        <div class="portfolio-filter">
+          <button class="filter-button active" data-filter="all">All</button>
+          <button class="filter-button" data-filter="branding">Branding</button>
+          <button class="filter-button" data-filter="web">Web Design</button>
+          <button class="filter-button" data-filter="animation">Animation</button>
+        </div>
+        <div class="portfolio-grid">
+          <article class="portfolio-card" data-category="branding">
+            <div class="portfolio-image image-1"></div>
+            <div class="portfolio-copy">
+              <h3>Luxury Brand System</h3>
+              <p>A bold identity for a premium lifestyle brand with sophisticated packaging and digital assets.</p>
+            </div>
+          </article>
+          <article class="portfolio-card" data-category="web">
+            <div class="portfolio-image image-2"></div>
+            <div class="portfolio-copy">
+              <h3>Responsive Brand Website</h3>
+              <p>A refined online experience combining strong visuals, fast performance, and conversion-focused content.</p>
+            </div>
+          </article>
+          <article class="portfolio-card" data-category="animation">
+            <div class="portfolio-image image-3"></div>
+            <div class="portfolio-copy">
+              <h3>Animated Launch Film</h3>
+              <p>Engaging motion content created to amplify awareness and communicate value with cinematic quality.</p>
+            </div>
+          </article>
+          <article class="portfolio-card" data-category="branding">
+            <div class="portfolio-image image-4"></div>
+            <div class="portfolio-copy">
+              <h3>Strategic Identity Refresh</h3>
+              <p>A modern visual identity system crafted to unify the brand across marketing, web, and packaging.</p>
+            </div>
+          </article>
+          <article class="portfolio-card" data-category="web">
+            <div class="portfolio-image image-5"></div>
+            <div class="portfolio-copy">
+              <h3>Experience Design Concept</h3>
+              <p>Custom website layout and interface design that delivers clarity, style, and easy user journeys.</p>
+            </div>
+          </article>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="footer-panel">
+        <p>© 2026 MagTeezy. All Rights Reserved.</p>
+        <p>Founded by Magnus Triumph Chibuikem.</p>
+      </div>
+      <div class="footer-panel">
+        <p>Services: Graphic Design | Web Design | Branding | Logo Design | Video Animation</p>
+        <p>WhatsApp: +2348071206958</p>
+      </div>
+    </footer>
+  </div>
+
+  <script src="../JAVA SCRIPT/script.js"></script>
+</body>
+</html>
